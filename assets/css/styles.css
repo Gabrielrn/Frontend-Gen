@@ -133,6 +133,7 @@ a:hover {
 
 .hr-ft {
   margin-top: 50px;
+  width: 100%;
 }
 
 /*estilos contato.index*/
@@ -145,7 +146,36 @@ a:hover {
 
 .nav-contato {
   display: flex;
+  justify-content: flex-end;
   justify-content: space-between;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+input,
+textarea {
+  border: 1px solid black;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  width: 108%;
+}
+
+button:hover {
+  background-color: #6c5954;
+}
+
+.info {
+  padding-bottom: 20px;
 }
 
 /*

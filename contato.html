@@ -12,6 +12,7 @@
 <body>
 
   <nav>
+    <p class="nome-site">Games Romm</p>
     <ul>
       <li>
         <a href="index.html">Home</a>
@@ -35,20 +36,23 @@
   <div class="container-contato">
     <div>
       <form>
-        <label class="conteudo" for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label class="conteudo" for="email">E-mail:</label> <br>
-        <input class="conteudo" type="email" id="email">
-        <br>
-        <br>
-        <label class="conteudo" for="email">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
-        <br>
-        <br>
+        <div class="info">
+          <label class="conteudo" for="nome">Nome:</label>
+          <input type="text" id="nome" placeholder="Insira seu nome Completo" class="conteudo">
+        </div>
+
+        <div class="info">
+          <label class="conteudo" for="email">E-mail:</label>
+          <input class="conteudo" type="email" id="email" placeholder="Digite seu E-mail" class="conteudo">
+        </div>
+
+        <div class="info">
+          <label class="conteudo" for="email">Assunto:</label>
+          <textarea name="assunto" id="assunto" cols="60" rows="10" placeholder="Escreva sua mensagem" class="conteudo"></textarea>
+        </div>
+
         <button class="conteudo">Enviar</button>
-        <hr>
+
         <h2 class="conteudo">Endereço</h2>
         <p class="conteudo">R. Pedro Taques, 47</p>
         <p class="conteudo">São Paulo - SP</p>
