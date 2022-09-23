@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Roboto&display=swap");
+
+/*Estilos index.html*/
+nav {
+  background-color: #475051;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Kalam", cursive;
+}
+
+.center {
+  text-align: center;
+}
+
+.nome-site {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #6c5954;
+}
+
+.conteudo {
+  font-family: "Kalam", cursive;
+}
+
+#banner {
+  display: flex;
+  align-content: center;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 90px;
+  padding: 20px;
+}
+
+.container {
+  background-color: #b7b3b8;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 55%;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-jogos {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 70vw;
+  display: flex;
+  flex-flow: row;
+  justify-content: right;
+}
+
+.div1 {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  background-color: #b7b3b8;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.sinopse {
+  margin-left: 20px;
+  align-self: center;
+}
+
+.sobre {
+  padding-left: 20px;
+  margin-left: 50px;
+}
+
+.imagem-jogo {
+  width: 300px;
+  margin-top: 50px;
+  margin-right: 200px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.trailer {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+  font-family: "Permanent Marker", cursive;
+}
+
+.container-social {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 55%;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tm-social {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.hr-ft {
+  margin-top: 50px;
+  width: 100%;
+}
+
+/*estilos contato.index*/
+
+.container-contato {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.nav-contato {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+input,
+textarea {
+  border: 1px solid black;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  width: 108%;
+}
+
+button:hover {
+  background-color: #6c5954;
+}
+
+.info {
+  padding-bottom: 20px;
+}
+
+/*
+Unidades de medida
+px -> unidade absoluta
+$ -> unidade relativa
+viewUnits -> vw (viewWidth) / vh (viewHeight) -> unidade relativa (vai de 0 a 100)
+rem -> do tamanho da letra M maiúscula do navegador do usuáriom, por padrão tem tamanha de 16px
+*/
