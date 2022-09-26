@@ -35,25 +35,34 @@
       <form>
         <div class="info">
           <label class="conteudo" for="nome">Nome:</label>
-          <input type="text" id="nome" placeholder="Insira seu nome Completo" class="conteudo">
+          <input type="text" id="nome" placeholder="Insira seu nome Completo" class="conteudo" onkeyup="validaNome()">
+          <div id="txtNome">
+
+          </div>
         </div>
 
         <div class="info">
           <label class="conteudo" for="email">E-mail:</label>
-          <input class="conteudo" type="email" id="email" placeholder="Digite seu E-mail" class="conteudo">
-        </div>
+          <input class="conteudo" type="email" id="email" placeholder="Digite seu E-mail" class="conteudo" onkeyup="validaEmail()">
+          <div id="txtEmail">
 
+          </div>
+        </div>
+      
         <div class="info">
-          <label class="conteudo" for="email">Assunto:</label>
-          <textarea name="assunto" id="assunto" cols="60" rows="10" placeholder="Escreva sua mensagem" class="conteudo"></textarea>
+          <label class="conteudo" for="assunto">Assunto:</label>
+          <textarea name="assunto" id="assunto" cols="60" rows="10" placeholder="Escreva sua mensagem" class="conteudo" onkeyup="validaAssunto()"></textarea>
+          <div id="txtAssunto">
+
+          </div>
         </div>
 
-        <button class="conteudo">Enviar</button>
+        <button class="conteudo" onclick="enviar()">Enviar</button>
 
         <h2 class="conteudo">Endereço</h2>
         <p class="conteudo">R. Pedro Taques, 47</p>
         <p class="conteudo">São Paulo - SP</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d768.8868853691415!2d-46.657169077604784!3d-23.55180851940514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5833eef0c135%3A0x4c8cf8b63acf1129!2sPlay%20Easy!5e0!3m2!1spt-BR!2sbr!4v1663861505547!5m2!1spt-BR!2sbr" width="450" height="250" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d768.8868853691415!2d-46.657169077604784!3d-23.55180851940514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5833eef0c135%3A0x4c8cf8b63acf1129!2sPlay%20Easy!5e0!3m2!1spt-BR!2sbr!4v1663861505547!5m2!1spt-BR!2sbr" width="450" height="250" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()"></iframe>
     </div>
     </form>
   </div>
@@ -72,6 +81,8 @@
       </a>
     </div>
   </footer>
+
+  <script src="./assets/scripts/script.js"></script>
 </body>
 
 </html>

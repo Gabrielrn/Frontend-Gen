@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalam&family=Roboto&display=swap");
 
+* {
+  font-family: "Kalam", cursive;
+}
+
 /*Estilos index.html*/
 nav {
   background-color: #475051;
