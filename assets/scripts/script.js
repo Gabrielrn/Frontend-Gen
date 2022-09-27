@@ -76,6 +76,7 @@ function validaAssunto() {
     assuntoOk = false
   }
   else {
+    txtAssunto.innerHTML = assunto.value.length + '0/100'
     txtAssunto.style.display = 'none'
     assuntoOk = true
   }
@@ -83,7 +84,7 @@ function validaAssunto() {
 
 function enviar() {
   if (nomeOk == true && emailOk == true && assuntoOk == true) {
-    alert('Formulário enviado com sucesso!')
+    alert(nome.value + ', Formulário enviado com sucesso!')
   }
   else {
     alert('Preencha o formulário corretamento antes de enviar...')

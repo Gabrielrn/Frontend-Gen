@@ -188,6 +188,13 @@ button:hover {
   padding-bottom: 20px;
 }
 
+.fundo {
+  background-color: #555303;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.96'%3E%3Ccircle fill='%23555303' cx='50' cy='0' r='50'/%3E%3Cg fill='%235a5810' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23605c1a' cx='50' cy='100' r='50'/%3E%3Cg fill='%23656123' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%236b662c' cx='50' cy='200' r='50'/%3E%3Cg fill='%23706a35' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23756f3d' cx='50' cy='300' r='50'/%3E%3Cg fill='%237a7446' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2380794e' cx='50' cy='400' r='50'/%3E%3Cg fill='%23857e57' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238a835f' cx='50' cy='500' r='50'/%3E%3Cg fill='%238f8868' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23948d71' cx='50' cy='600' r='50'/%3E%3Cg fill='%2399927a' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%239e9782' cx='50' cy='700' r='50'/%3E%3Cg fill='%23a39c8b' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a8a194' cx='50' cy='800' r='50'/%3E%3Cg fill='%23ada69d' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b1aba6' cx='50' cy='900' r='50'/%3E%3Cg fill='%23b6b1b0' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23BBB6B9' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+}
+
 /*
 Unidades de medida
 px -> unidade absoluta

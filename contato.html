@@ -9,7 +9,7 @@
   <title>Contato</title>
 </head>
 
-<body>
+<body class="fundo">
 
   <nav>
     <p class="nome-site">Games Romm</p>
@@ -35,7 +35,7 @@
       <form>
         <div class="info">
           <label class="conteudo" for="nome">Nome:</label>
-          <input type="text" id="nome" placeholder="Insira seu nome Completo" class="conteudo" onkeyup="validaNome()">
+          <input type="text" id="nome" placeholder="Insira seu nome Completo" class="conteudo" onkeyup="validaNome()" required>
           <div id="txtNome">
 
           </div>
@@ -43,7 +43,7 @@
 
         <div class="info">
           <label class="conteudo" for="email">E-mail:</label>
-          <input class="conteudo" type="email" id="email" placeholder="Digite seu E-mail" class="conteudo" onkeyup="validaEmail()">
+          <input class="conteudo" type="email" id="email" placeholder="Digite seu E-mail" class="conteudo" onkeyup="validaEmail()" required>
           <div id="txtEmail">
 
           </div>
